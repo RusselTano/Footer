@@ -122,55 +122,74 @@ li {
 // COMMENT FIXED LE FOOTER
 
 // ########## Position(absolute/fixed) method ###########
-      // footer {
-      //   position: absolute;
-      //   bottom: 0;
-      //   width: 100%; 
-      // }
+// footer {
+//   position: absolute;
+//   bottom: 0; //c'est pour les petit menu
+//   width: 100%;
+// }
 
-      // footer {
-      //   position: absolute;
-      //   bottom: 0;
-      //   left: 0;
-      //   right: 0;
-      // }
+// footer {
+//   position: absolute;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+// }
 
-      // footer {
-      //   position: fixed;
-      //   bottom: 0;
-      //   width: 100vw; //ici il est preferable de mettre en %
-      // }
+// footer {
+//   position: fixed;
+//   bottom: 0;
+//   width: 100vw; //ici il est preferable de mettre en %
+// }
 
 // ########## Push Method ###########
-      // main {
-      //   min-height: 100vh;
-      //   margin-bottom: -500px;
-      // }
+// main {
+//   min-height: 100vh;
+//   margin-bottom: -500px;
+// }
 
-      // footer{
-      //   height: 500px;
-      // }
+// footer{
+//   height: 500px;
+// }
 
 // ########## Calc Method ###########
-      // ici on prend la hauteur du main et on soustrait avec celle du (header      + footer)
-      // main {
-      //   min-height: calc(100vh -137px);
-      // }
+// ici on prend la hauteur du main et on soustrait avec celle du (header      + footer)
+// main {
+//   min-height: calc(100vh -137px);
+// }
 
 // ########## Flexbox Method ###########
-      // body {
-      //   display: flex;
-      //   flex-direction: column;
-      //   min-height: 100vh;
+// body {
+//   display: flex;
+//   flex-direction: column;
+//   min-height: 100vh;
 
-      //   main {
-      //     flex-grow: 1;
-      //   }
-      // }
+//   main {
+//     flex-grow: 1;
+//   }
+// }
 
 // ########## Grid Method ###########
-      // elle marche parfois
-      // body {
-      //   display: grid;
-      //   grid-template-rows: 1fr auto;
-      // }
+// main {
+//   min-height: 100vh;
+// }
+
+// footer {
+//   display: grid;
+//     grid: "col-1 col-2 col-3 col-4";
+
+//   .col-1 {
+//      grid-area: col-1;
+//   }
+
+//   .col-2 {
+//     grid-area: col-2;
+//   }
+
+//   .col-3 {
+//     grid-area: col-3;
+//   }
+
+//   .col-4 {
+//     grid-area: col-4;
+//   }
+// }
